@@ -2,16 +2,28 @@
   box-sizing: border-box;
 }
 
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-bottom: 2px dashed red;
+}
+
 .container {
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  width: 600px;
-  height: 600px;
+  width: 700px;
+  height: 700px;
 }
 
-.container > div {
+.no-hover {
+  background-color: white;
   border: 1px solid black;
-  flex: 1;
-  flex-basis: 6.1%;
+  flex: 0;
+  flex-basis: 3.3%;
+}
+
+.hover {
+  background-color: crimson;
 }
